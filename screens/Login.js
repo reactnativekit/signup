@@ -13,19 +13,19 @@ const Login = props => {
                     source={require('../assets/login.png')} 
                     resizeMode="center" 
                     style={styles.image} />
-                <Text style={styles.textTitle}>Welcome back</Text>
-                <Text style={styles.textBody}>Log in to your existant account</Text>
+                <Text style={styles.textTitle}>Welcome Back!</Text>
+                <Text style={styles.textBody}>Log in to your existing account.</Text>
                 <View style={{marginTop: 20}} />
                 <Inputs name="Email" />
                 <Inputs name="Password" pass={true} />
                 <View style={{width: '90%'}}>
-                    <Text style={[styles.textBody], {alignSelf: 'flex-end'}}>Forgot Password?</Text>
+                    <Text style={[styles.textBody], {alignSelf:'flex-end'}}>Forgot Password?</Text>
                 </View>
-                <Submit title="LOG IN" color="#0148a4" />
+                <Submit title="LOG IN" color="#0148A4" />
                 <Text style={styles.textBody}>Or connect using</Text>
                 <View style={{flexDirection: 'row'}}>
-                    <Account color="#3b5c8f" title="Facebook" />
-                    <Account color="#ec482f" title="Google" />
+                    <Account color="#4267B2" title="Facebook" />
+                    <Account color="#DB3236" title="Google" />
                 </View>
                 <View style={{flexDirection: 'row', marginVertical: 5}}>
                     <Text style={styles.textBody}>Don't Have an account</Text>

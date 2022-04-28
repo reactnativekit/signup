@@ -7,12 +7,12 @@ import Login from './screens/Login';
 
 const Stack = createStackNavigator();
 
-const Navigation = props => {
+const Navigation = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Home">
-                <Stack.Screen name="Home" component={Login} options={{headerShown: false}} />
-                <Stack.Screen name="SignUp" component={SignUp} options={{headerShown: false}} />
+                <Stack.Screen name="Home" component={Login} /*options={{headerShown: false}}*/ />
+                <Stack.Screen name="SignUp" component={SignUp} /* options={{headerShown: false}}*/ />
             </Stack.Navigator>
         </NavigationContainer>
     );

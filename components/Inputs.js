@@ -4,7 +4,7 @@ import {View, StyleSheet} from 'react-native';
 import {Input} from 'react-native-elements';
 
 class Inputs extends Component {
-    state = {isFocused: false};
+   state = {isFocused: false};
 
     onFocusChange = () => {
         this.setState({isFocused: true})
